@@ -61,7 +61,11 @@ class RAG:
         if self.llm_name == "LLaMA :llama:":
             embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
         elif self.llm_name == "PaLM :palm_tree:":
+<<<<<<< HEAD
             api_k = 'Your API'
+=======
+            api_k = 'Your API KEY'
+>>>>>>> dev
             embeddings = VertexAIEmbeddings(google_api_key=api_k,project="kpmg-poc")
         
 
