@@ -51,7 +51,7 @@ def get_chat_memory():
 
 def main():
   open_ai_api=os.getenv("OPENAI_API_KEY")
-#   open_ai_api = "sk-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT3BlbkFJm9Dn8pnyBU0naiFfV0PXn3cyBCfOOm0l_9-Eps9Wwi0WX3e0eHcxWaml8A"
+#   open_ai_api = "API KEY"
   st.title("Data Explorer")
     
     #Loading quetion bank
