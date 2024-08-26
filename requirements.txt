@@ -1,0 +1,24 @@
+openai
+scikit-learn
+seaborn 
+matplotlib
+plotly
+streamlit
+streamlit_extras
+streamlit-aggrid
+streamlit-ace
+streamlit_pandas_profiling
+langchain_openai
+langchain
+ydata_profiling
+setuptools
+
+tabulate
+python-dotenv
+
+langgraph
+langchainhub
+langgraph-checkpoint-sqlite
+langchain_experimental
+IPython
+# sentence_transformers

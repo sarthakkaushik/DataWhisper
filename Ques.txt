@@ -1,0 +1,24 @@
+1) Demo polishing- 
+	1) DRL  market share question
+	2) Insights from LLM
+	3)Data
+	
+	
+	
+LLM Prompt
+Detailed Question
+1)Show me Sales Performance by country
+
+2) Show me sales by product for FY 2024
+
+3)Show me the highest sold product for FY 2023
+
+
+4)Show me quarter wise sales trend by product and country
+
+5) Show me market share percentage for DRL for Russia brand wise
+
+6) Show me achievement% by country for each brand in FY 2024
+
+7) Show me growth% by country for each brand from FY23 to Fy 24
+
