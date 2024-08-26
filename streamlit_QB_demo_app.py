@@ -9,7 +9,7 @@ from tools.auto_graph_flow import autograph_full_output, extract_plotly_function
 from tools.agent_steps_explain import explain_agent_worflow_nl
 from tools.viz_plotly import get_primer, format_question, run_request
 from tools.human_in_loop import nlq_hil_agent
-from tools.auto_bank import query_check_agent
+from tools.depricated_auto_bank import query_check_agent
 from tools.Query_bank import QuestionProcessor, create_few_shot_prompt, format_examples
 import json
 from langchain_openai import AzureOpenAIEmbeddings
@@ -50,8 +50,8 @@ def get_chat_memory():
   return st.session_state.chat_memory
 
 def main():
-#   open_ai_api=os.getenv("OPENAI_API_KEY")
-  open_ai_api = "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"
+  open_ai_api=os.getenv("OPENAI_API_KEY")
+#   open_ai_api = "sk-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxT3BlbkFJm9Dn8pnyBU0naiFfV0PXn3cyBCfOOm0l_9-Eps9Wwi0WX3e0eHcxWaml8A"
   st.title("Data Explorer")
     
     #Loading quetion bank

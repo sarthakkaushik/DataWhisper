@@ -1,137 +1,14 @@
 [
+    
     {
         "Id": 1,
-        "Question": "Show me FY 2023 vs FY 2024 Performance for top brand in Russia",
-        "Described Steps": "1. Retrieve data for top brand in Russia for FY 2023 and FY 2024\n2. Compare the performance metrics (e.g., sales, market share, growth rate) between the two fiscal years\n3. Present the results in a clear and concise format"
-    },
-    {
-        "Id": 2,
-        "Question": "Show me actual sales, country wise for April 2024 in a table",
-        "Described Steps": "1. Gather sales data for all countries for April 2024\n2. Organize the data in a tabular format, with countries as rows and sales figures as columns\n3. Present the table in a clear and readable manner"
-    },
-    {
-        "Id": 3,
-        "Question": "Brazil performance across years for sales in table",
-        "Described Steps": "1. Collect sales data for Brazil over multiple fiscal years (e.g., FY 2022, FY 2023, FY 2024)\n2. Arrange the data in a table format, with fiscal years as rows and sales figures as columns\n3. Include any relevant performance metrics (e.g., growth rate) in the table"
-    },
-    {
-        "Id": 4,
-        "Question": "Country Russia sales achievement % country Product May 2024",
-        "Described Steps": "1. Obtain sales data for Russia, broken down by product, for May 2024\n2. Calculate the sales achievement percentage for each product compared to the target or budget\n3. Present the results in a table format, with products as rows and sales achievement percentage as the column"
-    },
-    {
-        "Id": 5,
-        "Question": "What is the CAGR of Russia sales from FY 2022 to FY 2024",
-        "Described Steps": "1. Gather sales data for Russia from FY 2022 to FY 2024\n2. Calculate the Compound Annual Growth Rate (CAGR) of Russia sales over this period\n3. Present the CAGR value, along with the formula used and any relevant context"
-    },
-    {
-        "Id": 6,
-        "Question": "What is the CAGR of Russia",
-        "Described Steps": "1. Gather sales data for Russia over multiple fiscal years\n2. Calculate the Compound Annual Growth Rate (CAGR) of Russia sales over the selected time period\n3. Present the CAGR value, along with the formula used and any relevant context"
-    },
-    {
-        "Id": 7,
-        "Question": "Show me sales for May 2024 vs LE vs budget across countries",
-        "Described Steps": "1. Collect sales data for May 2024, along with the latest estimate (LE) and the budget, for all countries\n2. Organize the data in a table format, with countries as rows and the different metrics (May 2024 sales, LE, budget) as columns\n3. Present the table in a clear and readable manner"
-    },
-    {
-        "Id": 8,
-        "Question": "Show me list of products where achievement and growth is satisfactory",
-        "Described Steps": "1. Gather data on product performance, including sales achievement and growth, for the relevant time period\n2. Identify the products where both the sales achievement and growth are considered satisfactory based on predefined criteria\n3. Present the list of these products in a clear and organized manner"
-    },
-    {
-        "Id": 9,
-        "Question": "Budget country FY 2025",
-        "Described Steps": "1. Collect the budgeted sales figures for each country for the upcoming fiscal year (FY 2025)\n2. Organize the data in a table or matrix format, with countries as rows and the budgeted sales as the column\n3. Present the information in a clear and concise way"
-    },
-    {
-        "Id": 10,
-        "Question": "Country sales budget FY 2024",
-        "Described Steps": "1. Gather the budgeted sales figures for each country for the current fiscal year (FY 2024)\n2. Arrange the data in a table or matrix format, with countries as rows and the budgeted sales as the column\n3. Present the information in a clear and concise way"
-    },
-    {
-        "Id": 11,
-        "Question": "Show me Sales vs Budget vs LE vs PY sales vs sales achievement % vs growth % by country by Brand by Channel for May 2024 in matrix",
-        "Described Steps": "1. Collect the following data for May 2024: sales, budget, latest estimate (LE), prior year (PY) sales, sales achievement percentage, and growth percentage\n2. Organize the data in a matrix format, with countries as rows, brands as columns, and the different metrics as the cells\n3. Present the matrix in a clear and comprehensive manner"
-    },
-    {
-        "Id": 12,
-        "Question": "Show me the sales Russia for month and FY year in matrix",
-        "Described Steps": "1. Gather the sales data for Russia, broken down by month and fiscal year\n2. Arrange the data in a matrix format, with months as rows and fiscal years as columns\n3. Present the matrix in a clear and readable way"
-    },
-    {
-        "Id": 13,
-        "Question": "Show me brand by country and achievement % where achievement % is less than 1 in table for April 2024",
-        "Described Steps": "1. Collect the brand-level sales data for each country, along with the corresponding sales achievement percentage, for April 2024\n2. Filter the data to include only the brands where the sales achievement percentage is less than 1 (100%)\n3. Organize the filtered data in a table format, with countries as rows, brands as columns, and the sales achievement percentage as the values"
-    },
-    {
-        "Id": 14,
-        "Question": "Top brand by sales & Budget in Russia for April 2024 in table",
-        "Described Steps": "1. Identify the top brand in Russia based on sales and budget for April 2024\n2. Gather the sales and budget figures for the top brand\n3. Present the information in a table format, with the brand name, sales, and budget as the columns"
-    },
-    {
-        "Id": 15,
-        "Question": "Show sales by Brand classification in matrix by country/brand for FY 2024",
-        "Described Steps": "1. Classify the brands into relevant categories (e.g., premium, mass market, etc.)\n2. Collect the sales data for each brand classification, broken down by country, for the FY 2024\n3. Organize the data in a matrix format, with countries as rows, brand classifications as columns, and the sales figures as the values"
-    },
-    {
-        "Id": 16,
-        "Question": "Inhouse vs external sales for FY 2024 in Table",
-        "Described Steps": "1. Gather the sales data for FY 2024, distinguishing between in-house and external (e.g., distributor, partner) sales\n2. Arrange the data in a table format, with the sales channel (in-house, external) as rows and the sales figures as the column"
-    },
-    {
-        "Id": 17,
-        "Question": "Show me Sales vs Budget vs LE vs PY sales vs growth % by country by Molecule for FY 2024 in matrix",
-        "Described Steps": "1. Collect the following data for FY 2024: sales, budget, latest estimate (LE), prior year (PY) sales, and growth percentage\n2. Organize the data in a matrix format, with countries as rows, molecules (or products) as columns, and the different metrics as the cells\n3. Present the matrix in a clear and comprehensive manner"
-    },
-    {
-        "Id": 18,
-        "Question": "Show me Sales, sequential value, sequential growth by country for Q1 FY 2024 in matrix",
-        "Described Steps": "1. Gather the sales data for Q1 of FY 2024, broken down by country\n2. Calculate the sequential value (previous period's value) and sequential growth for each country\n3. Arrange the sales, sequential value, and sequential growth data in a matrix format, with countries as rows and the different metrics as columns"
-    },
-    {
-        "Id": 19,
         "Question": "Show me Sales Performance by country",
         "Described Steps": "1. Retrieve actual sales data, budget, and latest estimate (LE) for each country\n2. Organize the data in a table format, with countries as rows and the different metrics (actual sales, budget, LE) as columns\n3. Present the table in a clear and readable manner"
     },
     {
-        "Id": 20,
+        "Id": 2,
         "Question": "Show me market share percentage for DRL for Russia for each brand wise",
         "Described Steps": "1. Filter data on the country = Russia\n2. Group by product and calculate total DRL sales and market sales\n3. Calculate the market share percentage for each product\n4. Map each product with their brand name\n5. Present the results in a table format, with products as rows and market share percentage as the column"
-    },
-    {
-        "Id": 21,
-        "Question": "Hello world",
-        "Described Steps": "type hello world\nprint (hellow   )"
-    },
-    {
-        "Id": 22,
-        "Question": "test-2",
-        "Described Steps": "test2"
-    },
-    {
-        "Question": "multi quest1 ",
-        "Described Steps": " ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-        "Id": 23
-    },
-    {
-        "Question": "multi ques2 ",
-        "Described Steps": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
-        "Id": 24
-    },
-    {
-        "Question": "testq1",
-        "Described Steps": "kjhkfjshadkjahf",
-        "Id": 25
-    },
-    {
-        "Question": "kjsdkjhkfjshadkjahf",
-        "Described Steps": "s;lfk;slkfl;skf;s",
-        "Id": 26
-    },
-    {
-        "Id": 27,
-        "Question": "asdasddasd",
-        "Described Steps": "dasdad"
     }
 ]
+   
