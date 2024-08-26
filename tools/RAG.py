@@ -44,7 +44,7 @@ class RAG:
         if self.llm_name == "LLaMA :llama:":
             embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
         elif self.llm_name == "PaLM :palm_tree:":
-            api_k = 'AIzaSyCCnM5VJL6E2fTX2UYXhiljllKZBm7WJzA'
+            api_k = 'Your API'
             embeddings = VertexAIEmbeddings(google_api_key=api_k,project="kpmg-poc")
 
 
@@ -61,7 +61,7 @@ class RAG:
         if self.llm_name == "LLaMA :llama:":
             embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
         elif self.llm_name == "PaLM :palm_tree:":
-            api_k = 'AIzaSyCCnM5VJL6E2fTX2UYXhiljllKZBm7WJzA'
+            api_k = 'Your API'
             embeddings = VertexAIEmbeddings(google_api_key=api_k,project="kpmg-poc")
         
 
@@ -110,7 +110,7 @@ class RAG:
         if self.llm_name == "LLaMA :llama:":
             embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
         elif self.llm_name == "PaLM :palm_tree:":
-            api_k = 'AIzaSyCCnM5VJL6E2fTX2UYXhiljllKZBm7WJzA'
+            api_k = 'Your API'
             embeddings = VertexAIEmbeddings(google_api_key=api_k,project="kpmg-poc")
     
         db = FAISS.load_local(DB_FAISS_PATH, embeddings)

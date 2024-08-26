@@ -31,7 +31,7 @@ from langgraph.graph.message import add_messages
 # from dotenv import load_dotenv
 # load_dotenv()
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = 'Your API'
 
 aoai_api_key = os.getenv("AZURE_OPENAI_API_KEY") 
 aoai_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
