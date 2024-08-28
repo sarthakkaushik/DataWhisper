@@ -36,7 +36,7 @@ def get_chat_memory():
   return st.session_state.chat_memory
 
 def main():
-  open_ai_api = "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"
+  open_ai_api ="HI"
   st.title("Data Explorer")
 
   with st.sidebar:
