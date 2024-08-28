@@ -130,6 +130,8 @@ Double check the SQLite query for common mistakes, including:
 
 ## 1. Column Understanding of the data: The dataset contains the following columns. Use this information to interpret queries and construct appropriate responses:
 
+        
+
             | Field Name           | Description                                                                                           |
             |----------------------|-------------------------------------------------------------------------------------------------------|
             | Period               | Indicates Sales Month                                                                                 |
@@ -157,6 +159,10 @@ Double check the SQLite query for common mistakes, including:
             | PLANT                | AM/NS facility location from where the material is dispatched                                         |
             | MARKET_SEGMENT       | Industry segment                                                                                     |
             | SALES_PERSON         | Sales person name                                                                                     |
+
+    ## 2. Query Interpretation Guidelines
+    - for keyword like "purchasing" means Net sales
+    - For return rate - also need to consider Quantity_MT
 
 If there are any of the above mistakes, rewrite the query. If there are no mistakes, just reproduce the original query.
 
