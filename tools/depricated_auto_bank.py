@@ -28,15 +28,11 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 
-# from dotenv import load_dotenv
-# load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 
-<<<<<<< HEAD
-os.environ['OPENAI_API_KEY'] = 'Your API'
-=======
-os.environ['OPENAI_API_KEY'] = "Your API KEY"
->>>>>>> dev
 
+open_ai_api=os.getenv("OPENAI_API_KEY")
 aoai_api_key = os.getenv("AZURE_OPENAI_API_KEY") 
 aoai_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
 aoai_api_version = os.getenv("AZURE_OPENAI_API_VERSION")
